@@ -10,7 +10,7 @@ function App() {
   const [isCopy, setIsCopy] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
 
-  const apiURL = "http://localhost:8800"; // Your backend server URL
+  const apiURL = "http://pdf-summarizer-nu.vercel.app"
 
   // Handle dark mode toggle
   const toggleDarkMode = () => {

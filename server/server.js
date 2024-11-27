@@ -18,7 +18,7 @@ const app = express();
 
 // Enable cross-origin requests and handle JSON payloads up to 5MB
 app.use(cors({
-  origin: 'http://localhost:3000', // Change this to the front-end URL
+  origin: 'http://pdf-summarizer-nu.vercel.app',
   methods: 'GET,POST',
 }));
 app.use(express.json({ limit: '5mb' }));
